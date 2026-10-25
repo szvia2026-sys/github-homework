@@ -1,2 +1,9 @@
-name = "Shako"
-print("Welcome,", name)
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+if num1 > num2:
+    print("First is greater")
+elif num1 == num2:
+    print("Numbers are equal")
+else:
+    print("Second is greater")
